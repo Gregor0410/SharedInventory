@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.gregor0410.sharedinventory.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MinecraftServerMixin",
+    "PlayerInventoryMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

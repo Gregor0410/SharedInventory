@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "sharedinventory",
+  "version": "${version}",
+  "name": "SharedInventory",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/sharedinventory/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.gregor0410.sharedinventory.Sharedinventory"
+    ]
+  },
+  "mixins": [
+    "sharedinventory.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "minecraft": ">=1.16"
+  }
+}
